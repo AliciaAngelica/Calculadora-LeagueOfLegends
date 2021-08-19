@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fundo{
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.calculadora{
+    position: absolute;
+    background-color: palevioletred;
+    opacity: 0.9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: white;
+    color: palevioletred;
+}
+
+h1{
+    font-size: 26px;
+    text-align: center;
+}
+
+body{
+    background-image: url('LUX.png');
+  
+}
+
+#resultado{
+    background-color: white;
+    width: 198px;
+    height: 30px;
+    margin: 4px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
